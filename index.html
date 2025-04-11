@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/889e400bff.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Auction Gallery</title>
+    <style>
+      .picture{
+        width: 50px;
+        height: 50px;
+      }
+      .table-style{
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+      }
+      .flexdiv{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      .td-rest{
+        text-align: center;
+      }
+      .first-table{
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        margin-right: 10px;
+        flex: 2;
+      }
+      .card-system{
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        flex: 1;
+        height: auto;
+        
+      }
+      .table{
+        border-collapse: collapse;
+        width: 100%;
+        border: none;
+      }
+      .table th,
+    .table td {
+      border: none;
+      text-align: center;
+    }
+    #not-td-center{
+      text-align: left;
+    }
+    .second-card-heading{
+      font-size: large;
+      font-weight: bold;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid gray;
+    }
+    .no-favourite{
+      font-size: larger;
+      font-weight: bold;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+    .card-paragraph{
+      padding-top: 8px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid gray;
+    }
+    .card-div{
+      display: flex;
+      padding: 10px;
+      border-bottom: 1px solid gray;
+      border-top: 1px solid gray;
+      gap: 8px;
+    }
+    .card-image{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .card-margin{
+      display: flex;
+      gap: 30px;
+      margin-top: 5px;
+    }
+    .card-description{
+      display: grid;
+      grid-template-columns: 4fr 1fr;
+      gap: 100px;
+    }
+    .cross-icon{
+      cursor: pointer;
+    }
+    .cross-icon:hover{
+      color: red;
+    }
+    .image-wrapper{
+      width: 100px;
+      height: 100px;
+      overflow: hidden;
+      flex-shrink: 0;
+      border-radius: 8px;
+    }
+    .auction-heading{
+      font-size: x-large;
+      font-weight: 700;
+      padding-top: 40px;
+      color: #0E2954;
+    }
+    .auction-description{
+      margin-bottom: 20px;
+    }
+    .button-red{
+      color: red;
+
+    }
+    
+    .disabled-heart {
+      pointer-events: none;
+      
+    }
+    .disabled-wrapper{
+      cursor: not-allowed;
+    }
+    .temp-cart{
+      display: none;
+    }
+
+    </style>
+  </head>
+  <body>
+    <nav class="w-11/12 mx-auto py-5">
+      <div class="flex justify-between items-center">
+        <div>
+          <h3><span class="text-blue-600 text-3xl">Auction</span><span class="text-yellow-300 text-3xl font-bold">Gallery</span></h3>
+        </div>
+        <div class="flex justify-center gap-12">
+          <ul>Home</ul>
+          <ul>Auctions</ul>
+          <ul>Categories</ul>
+          <ul>How to works</ul>
+        </div>
+        <div class="flex justify-center items-center gap-4">
+          <div>
+            <i class="fa-solid fa-bell"></i>
+          </div>
+          <div class="avatar">
+            <div class="w-8 rounded-full">
+              <img src="./public/assets/soil.jpeg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="bg-[url('/assets/Banner-min.jpg')] bg-cover bg-center h-[500px]">
+      <div class="grid grid-cols-3">
+        <div class="pl-16 my-32">
+          <h1 class="text-3xl text-white font-bold mb-4">Bid on Unique Items from Around the World</h1>
+          <p class="text-white mb-4">Discover rare collectibles, luxury goods, and vintage treasures in our curated auctions</p>
+          <button class="bg-white text-black p-2 rounded-full">Explore Auctions</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="bg-blue-50 pb-14">
+      <div class="w-11/12 mx-auto" id="root"></div>
+    </div>
+    <footer class="mt-10">
+      <div class="text-center">
+        <h3><span class="text-blue-600 text-3xl text-center">Auction</span><span class="text-yellow-300 text-3xl font-bold">Gallery</span></h3>
+      </div>
+      <div class="flex gap-5 justify-center mt-5 mb-5">
+        <ol>Bid.</ol>
+        <ol>Win.</ol>
+        <ol>Won.</ol>
+      </div>
+      <div class="flex gap-5 justify-center mt-5 mb-5">
+        <ol>Home</ol>
+        <ol>Auctions</ol>
+        <ol>Categories</ol>
+        <ol>How to works</ol>
+      </div>
+      <h3 class="text-center mb-8">© 2025 AuctionHub. All rights reserved.</h3>
+    </footer>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

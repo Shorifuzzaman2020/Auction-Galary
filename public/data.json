@@ -1,0 +1,57 @@
+[
+    {
+      "id": "1",
+      "title": "Vintage Leica M3 Camera",
+      "description": "A handmade leather wallet in excellent condition from the 1980s.",
+      "currentBidPrice": 2850,
+      "timeLeft": "2 days left",
+      "bidsCount": 12,
+      "image": "https://i.ibb.co.com/vCrYYGgF/Bid1-min.png"
+    },
+    {
+      "id": "2",
+      "title": "1965 Gibson SG Standard Electric Guitar",
+      "description": "Brand new iPhone 13 Pro with 128GB storage, midnight color.",
+      "currentBidPrice": 999,
+      "timeLeft": "2 days left",
+      "bidsCount": 45,
+      "image": "https://i.ibb.co.com/zTp28PXW/Bid2-min.png"
+    },
+    {
+      "id": "3",
+      "title": "Original Apple Macintosh 128K (1984)",
+      "description": "Beautifully carved antique chair made from mahogany wood.",
+      "currentBidPrice": 4150,
+      "timeLeft": "2 days left",
+      "bidsCount": 9,
+      "image": "https://i.ibb.co.com/3yLjmQ1Q/Bid3-min.png"
+    },
+    {
+      "id": "4",
+      "title": "Rolex Submariner 16610",
+      "description": "High performance ASUS ROG gaming laptop with RTX 3070 and 16GB RAM.",
+      "currentBidPrice": 1150,
+      "timeLeft": "2 days left",
+      "bidsCount": 27,
+      "image": "https://i.ibb.co.com/WNb5SJt5/Bid4-min.png"
+    },
+    {
+      "id": "5",
+      "title": "First Edition 'The Great Gatsby' by F. Scott Fitzgerald",
+      "description": "Original team jersey signed by a famous NFL player.",
+      "currentBidPrice": 320,
+      "timeLeft": "2 days left",
+      "bidsCount": 18,
+      "image": "https://i.ibb.co.com/0jYxRqd7/Bid6-min.png"
+    },
+    {
+      "id": "6",
+      "title": "Mid-Century Modern Eames Lounge Chair",
+      "description": "Canon EOS 90D with 18-135mm lens, lightly used.",
+      "currentBidPrice": 120,
+      "timeLeft": "2 days left",
+      "bidsCount": 22,
+      "image": "https://i.ibb.co.com/sJNrmYxV/Bid5-min.png"
+    }
+  ]
+  
